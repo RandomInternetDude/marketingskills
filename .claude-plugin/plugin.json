@@ -1,12 +1,12 @@
 {
   "name": "marketing-skills",
-  "description": "Marketing skills for AI agents — conversion optimization, copywriting, SEO, paid ads, ad creative, and growth",
+  "description": "Directory-submission + product-marketing skills for CNA / healthcare training sites and local businesses. Forked from coreyhaines31/marketingskills (MIT).",
   "version": "2.5.1",
   "author": {
-    "name": "Corey Haines"
+    "name": "215 Ventures"
   },
-  "homepage": "https://github.com/coreyhaines31/marketingskills",
-  "repository": "https://github.com/coreyhaines31/marketingskills",
+  "homepage": "https://github.com/RandomInternetDude/marketingskills",
+  "repository": "https://github.com/RandomInternetDude/marketingskills",
   "license": "MIT",
   "skills": "./skills"
 }

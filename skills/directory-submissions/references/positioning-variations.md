@@ -1,232 +1,183 @@
-# Positioning Variations Library
+# Positioning Variations Library — CNA / Healthcare Training + Local
 
-Directory audiences respond to different framings. Never copy-paste the same description everywhere — AI engines penalize duplicate content, and each directory type rewards a different opener.
+Directory audiences respond to different framings. Never copy-paste the same description everywhere — search engines and AI answer engines penalize duplicate content, and each surface rewards a different opener.
 
-Use this library to generate per-tier variants. Swap `[product]`, `[category]`, `[competitors]`, `[use-case]`, and `[audience]` with the real values.
+Use this library to generate per-tier variants. Swap `[school]`, `[city]`, `[state]`, `[program]`, `[pass-rate]`, `[placement-rate]`, and `[differentiator]` with the real values.
 
 ---
 
-## Framework: Lead Sentence Varies by Tier
+## Rule 0 — Lock the canonical NAP first
 
-| Tier | Lead sentence pattern | Why |
+Everything below must use the **exact same** Name, Address, Phone, and website across every listing. Decide these once and never deviate (abbreviations, suite formatting, and phone format all count).
+
+```
+Name:    [Exact legal/DBA name — e.g., "215 Ventures CNA Training Center"]
+Address: [Street, Suite] · [City], [ST] [ZIP]
+Phone:   ([XXX]) XXX-XXXX
+Website: https://[canonical-domain]/[program-page or homepage]
+Hours:   [consistent weekly hours]
+Primary category:   Vocational school / Nurses' association / Training centre
+Secondary categories: [as the platform allows]
+```
+
+---
+
+## Framework: Lead Sentence Varies by Surface
+
+| Surface | Lead sentence pattern | Why |
 |---|---|---|
-| Startup / launch | "[Product] is the easiest way to [outcome] for [audience]." | Founders scan for outcome clarity. |
-| SaaS directory | "[Product] is the [differentiator] alternative to [competitors]." | Catches "[competitor] alternative" search intent. |
-| AI directory | "[Product] uses [AI capability] to [outcome]." | TAAFT/Futurepedia audiences explicitly want AI. |
-| Agent / MCP | "[Product] is an MCP-native / agent-native [category]." | Niche but high-intent. Ruling-out competitors. |
-| No-code | "[Product] lets you build [output] without code." | Audience values speed, not technical depth. |
-| Dev tool | "[Product] is a [technical category] with [differentiator]." | Devs want substance upfront. |
-| B2B review | "[Product] helps [audience] [measurable business outcome]." | Reviewers want ROI language. |
+| Google Business Profile / maps | "State-approved CNA training in [city], [state] — [pass-rate]% exam pass rate." | Local searchers want proximity + legitimacy + outcome. |
+| Local citation directories | "[School] is a [state]-approved nurse aide training program in [city]." | NAP + category clarity for citation consistency. |
+| School / education directories | "[School] prepares students for the [state] CNA certification exam in [weeks] weeks." | High-intent students compare programs on time + outcome. |
+| State / accreditation pages | "[School] — approved [state] Nurse Aide Training Program #[approval-id]." | Authority surfaces want factual, verifiable status. |
+| Review platforms | Earn, don't write — respond to reviews with outcome + care language. | Reviewers and prospects want proof, not marketing. |
+| Local press / listicles | "[School] has graduated [N] CNAs with a [placement-rate]% job-placement rate in [city]." | Editors want a local, numbers-backed story. |
 
 ---
 
-## Template: Startup / Launch Directories
+## Template: Google Business Profile (The Anchor)
 
-**Target:** Product Hunt, BetaList, Fazier, Uneed, DevHunt, Microlaunch, OpenHunts, LaunchVault, Firsto, PitchWall
+**Business name:** exact canonical NAP name (no keyword stuffing — Google suspends for it).
+
+**"From the business" description (750 chars):**
+> [School] is a [state]-approved Certified Nursing Assistant (CNA) training program serving [city] and [surrounding areas]. Our [weeks]-week program prepares you for the [state] nurse aide competency exam with hands-on clinical hours, small class sizes, and experienced RN instructors. [X]% of our students pass the exam on the first attempt, and we help graduates connect with local employers including [nursing homes / hospitals / home-health agencies]. Day, evening, and weekend classes available. Financial assistance and WIOA funding may be available for those who qualify. Call [phone] or visit [url] to reserve a seat in the next cohort.
+
+**Services to add:** CNA Certification Program · Exam Prep · Clinical Training · CPR/BLS (if offered) · Job Placement Assistance
+
+**Categories:** Vocational school (primary) · Training centre · Nurses' association (as applicable)
+
+**Posts (weekly):** next start date, an open-house/info-session, a graduate spotlight, an exam-pass milestone.
+
+---
+
+## Template: Local Citation Directories
+
+**Target:** YP.com, Manta, Hotfrog, MerchantCircle, Cylex, BBB, Chamber of Commerce, data aggregators
 
 **Tagline (under 10 words):**
-> The [differentiator] way to [outcome] for [audience].
+> State-approved CNA training in [city], [state].
 
 **Short description (60 chars):**
-> [Outcome-focused one-liner with product name]
+> [City] CNA classes — certify in [weeks] weeks. Call [phone].
 
 **Long description (150 words):**
-> [Product] is the easiest way to [outcome] for [audience]. Built for teams who [pain point], [product] removes [friction] by [how].
+> [School] is a [state]-approved Certified Nursing Assistant training program located in [city], [state]. We offer a [weeks]-week CNA certification course with classroom instruction, skills-lab practice, and supervised clinical hours that prepare students for the [state] nurse aide competency exam.
 >
-> Unlike [competitor category], [product] [key differentiator 1] and [key differentiator 2]. You can [action 1] in under [timeframe], [action 2] without [limitation], and [action 3] that would normally require [cost or technical skill].
+> Our program features small class sizes, RN-led instruction, and flexible day/evening/weekend schedules. [X]% of graduates pass the certification exam on their first attempt, and our job-placement support connects students with area employers.
 >
-> We built [product] because [founder origin story in one sentence]. It's now used by [audience examples] to [use case examples].
+> Financial assistance and workforce funding may be available. Enroll for the next cohort by calling [phone] or visiting [url].
 >
-> Try it free at [url]. No credit card, no setup.
+> Serving [city] and nearby communities: [neighboring towns].
 
-**Tags:** [product category], [audience type], [use case 1], [use case 2], [differentiator], [tech]
+**Tags/categories:** CNA training, nurse aide program, vocational school, healthcare training, [city], [state], certification, clinical training
 
 ---
 
-## Template: SaaS / Software Directories
+## Template: School / Education Directories
 
-**Target:** AlternativeTo, SaaSHub, G2, Capterra, GetApp, SourceForge, Slashdot, Startup Stash, F6S
+**Target:** Niche.com, RWM.org, Trade-Schools.net, AllAlliedHealthSchools, CNA aggregators
 
 **Tagline:**
-> The [differentiator] alternative to [top competitors].
+> Certify as a CNA in [weeks] weeks — [state]-approved, [pass-rate]% pass rate.
 
 **Long description:**
-> [Product] is a [differentiator] alternative to [competitor 1], [competitor 2], and [competitor 3] — built for [audience] who need [gap the competitors don't fill].
+> [School] offers a [state]-approved Certified Nursing Assistant program in [city], designed to get you certified and working in [weeks] weeks. The curriculum covers patient care fundamentals, infection control, vital signs, mobility and transfer, and the full skills set tested on the [state] nurse aide competency exam.
 >
-> Where [competitor 1] [limitation 1] and [competitor 2] [limitation 2], [product] [solves]. You get [feature 1], [feature 2], and [feature 3] in a single workspace, at [pricing relative to competitors].
+> Program highlights:
+> • [Hours] total hours — [classroom] classroom + [clinical] supervised clinical
+> • RN instructors and hands-on skills lab
+> • [pass-rate]% first-attempt exam pass rate
+> • Job-placement assistance with local [employers]
+> • Day, evening, and weekend cohorts
+> • Financial aid / WIOA funding for those who qualify
 >
-> Key features:
-> • [Feature 1] — [benefit]
-> • [Feature 2] — [benefit]
-> • [Feature 3] — [benefit]
-> • [Feature 4] — [benefit]
-> • [Integration 1], [Integration 2], [Integration 3] integrations
->
-> Trusted by [audience examples]. Start free at [url].
+> Tuition: [amount or "contact for current pricing"]. Next start date: [rolling / date]. Learn more or apply at [url].
 
-**Tags:** [competitor] alternative, [category], [audience], [differentiator], [top 3 features]
+**Tags:** CNA program, nurse aide training, allied health, healthcare certification, [state] approved, [city], exam prep, clinical hours
 
 ---
 
-## Template: AI Directories
+## Template: State / Accreditation & Authority Pages
 
-**Target:** TAAFT, Futurepedia, Toolify, Future Tools, aitools.inc, AIStage, LogicBalls, SaasAITools
+**Target:** State Nurse Aide Registry approved-program list, testing-vendor locators, ETPL/CareerOneStop
 
-**Tagline:**
-> AI-powered [category] for [audience].
+**Framing — factual and verifiable only:**
+> [School] — [State] Nurse Aide Training Program, approval #[ID]. [Address]. Program length: [hours] hours ([classroom]/[clinical]). Contact: [phone] · [url]. Testing vendor: [Prometric / Credentia / Pearson VUE]. ETPL provider ID: [ID, if applicable].
 
-**Long description:**
-> [Product] is an AI-powered [category] that [core AI capability]. It uses [specific models / techniques] to [outcome] — so [audience] can [job to be done] in a fraction of the time.
->
-> What makes it AI-first:
-> • [AI feature 1] — [what it does] using [model/approach]
-> • [AI feature 2] — [what it does]
-> • [AI feature 3] — [what it does]
-> • [AI feature 4] — [what it does]
->
-> [Product] is built on [tech stack] and supports [models/providers]. Use cases: [use case 1], [use case 2], [use case 3], [use case 4].
->
-> Free tier available. No API keys required to start.
-
-**Tags:** AI [category], [AI capability 1], [AI capability 2], AI for [audience], [use case 1], [use case 2], [LLM provider], [differentiator]
+**Rules:**
+- Use the school's exact legal name and approval identifiers.
+- State only what is currently true and verifiable; update immediately if approval status changes.
+- No marketing adjectives — these surfaces reward accuracy.
 
 ---
 
-## Template: Agent / MCP Registries
+## Template: Review Requests (Earn, Don't Write)
 
-**Target:** Glama, APITracker, Linux Foundation MCP Registry, AI Agents List, AI Agent Store, AgentHunter
+**Target:** Google, Facebook, Niche, BBB
 
-**Tagline:**
-> MCP-native [category] for AI agents.
+You don't write these — you request them. One ask, one direct link, sent the week of certification.
 
-**Long description:**
-> [Product] is an MCP-native [category] that lets AI agents [capability]. It exposes [MCP server capabilities] via the Model Context Protocol, so agents in Claude, ChatGPT, Cursor, and any MCP-compatible client can [actions].
+**Email (Google review request):**
+> Subject: Congrats on your CNA certification, [name]!
 >
-> MCP capabilities:
-> • [Tool 1] — [what the agent can do]
-> • [Tool 2] — [what the agent can do]
-> • [Tool 3] — [what the agent can do]
-> • [Resource 1] — [context surfaced]
-> • [Prompt 1] — [pre-built prompt]
+> Hi [name] — congratulations on passing your exam and completing the program. It was a pleasure having you in the [month] cohort.
 >
-> Authentication: [auth method]. Transports: stdio, HTTP, SSE. Security: [security posture].
+> If you have 60 seconds, would you share your experience for future students deciding where to train? Here's a direct link: [Google review link]. Your honest feedback helps someone else take the same step you did.
 >
-> Installation: [one-line install command]. Docs: [docs URL].
+> Wishing you the best on the floor,
+> [Instructor / Director name], [School]
 
-**Tags:** MCP, MCP server, AI agent, agent [category], Claude integration, Model Context Protocol, [domain], [auth type]
+**Rules:** don't incentivize Google/Yelp reviews (against terms). Ask every graduate. Respond to every review — thank positives by name; address negatives with empathy and a next step.
 
 ---
 
-## Template: No-Code Directories
+## Template: Local Press / "Best Of" Listicles
 
-**Target:** NoCodeFinder, No Code MBA Tools Directory, We Are No Code, NoCode.Tech
+**Target:** local newspaper/TV sites, Patch, "best CNA classes in [city]" roundups
 
-**Tagline:**
-> Build [output] without code.
+**Pitch angle options:**
+- **Demand story:** "[Region] faces a CNA shortage — here's how [N] locals got certified this year."
+- **Graduate story:** a career-change success (verbatim quote + photo, with consent).
+- **Milestone:** [N]th graduate, new campus, scholarship, employer partnership.
 
-**Long description:**
-> [Product] lets you build [output] without writing code. Drag, drop, or describe what you want and [product] handles the rest — [technical concept 1] and [technical concept 2] are automatic.
->
-> What you can build:
-> • [Example project 1] — built in [timeframe]
-> • [Example project 2] — built in [timeframe]
-> • [Example project 3] — built in [timeframe]
->
-> No-code friendly features:
-> • [Visual feature 1]
-> • [Visual feature 2]
-> • [AI-assisted feature]
-> • [Pre-built templates]
->
-> Start free. No credit card. Templates included.
-
-**Tags:** no code, no-code [category], visual [tool], drag and drop, [output type], [audience type]
+**Inclusion blurb (for roundups):**
+> [School] — [state]-approved CNA program in [city]. [Weeks]-week course, [pass-rate]% first-attempt pass rate, day/evening/weekend options, and job-placement help with local [employers]. [Phone] · [url].
 
 ---
 
-## Template: Dev / Technical Directories
-
-**Target:** DevHunt, Stackshare, GitHub, Dev.to, Hacker News Show HN
-
-**Tagline:**
-> [Technical category] with [technical differentiator].
-
-**Long description:**
-> [Product] is a [technical category] built on [tech stack]. It solves [technical problem] by [technical approach].
->
-> Architecture:
-> • [Component 1] — [tech used]
-> • [Component 2] — [tech used]
-> • [Component 3] — [tech used]
->
-> Why it's different: [technical insight or novel approach]. We chose [trade-off] because [reason].
->
-> Open source: [yes/no/partial]. Self-hostable: [yes/no]. License: [license].
->
-> API: [REST / GraphQL / MCP / gRPC]. SDKs: [languages]. Docs: [url].
-
-**Tags:** [language], [framework], [category], open source, API, [tech stack component], [architecture approach]
-
----
-
-## Template: B2B Review Platforms
-
-**Target:** G2, Capterra, TrustRadius, GetApp, Gartner Digital Markets, Crozdesk
-
-**Tagline:**
-> [Business outcome] for [audience].
-
-**Long description:**
-> [Product] helps [audience] [achieve measurable business outcome]. Teams use it to [use case 1], [use case 2], and [use case 3] — reducing [metric] by [percentage] and increasing [metric] by [percentage].
->
-> Key benefits:
-> • [Business benefit 1] with [how measured]
-> • [Business benefit 2] with [how measured]
-> • [Business benefit 3] with [how measured]
->
-> Integrations: [enterprise integrations — HubSpot, Salesforce, Slack, etc.]
->
-> Security: [SOC 2 / GDPR / compliance posture]. Support: [support tier]. Pricing: [pricing range].
->
-> Trusted by [customer logos / company size]. Case studies at [url].
-
-**Tags:** [business use case], [vertical], [audience role], [compliance], enterprise [category], [integration 1]
-
----
-
-## Category Tag Library
+## Category / Tag Library
 
 Pull 5–8 tags per submission from the relevant sections. Never repeat the exact same tag set across two directories in the same tier.
 
 ### Universal
-[category], [audience], [differentiator], [use case], AI, no-code, SaaS, [tech stack]
+CNA training, nurse aide program, certified nursing assistant, healthcare training, vocational school, [city], [state], certification
 
-### Industry
-B2B, B2C, DTC, ecommerce, fintech, edtech, healthtech, martech, devtools, productivity, creator tools, agency tools
+### Program attributes
+exam prep, clinical hours, skills lab, RN instructors, [weeks]-week program, day classes, evening classes, weekend classes, small class sizes
 
-### Job-to-be-done
-lead generation, lead qualification, customer onboarding, product recommendation, sales enablement, marketing automation, survey, assessment, calculator, quiz, intake form
+### Outcome / funding
+job placement, first-attempt pass rate, WIOA funding, financial assistance, career change, entry-level healthcare
 
-### AI-specific
-AI agent, LLM, generative AI, conversational AI, RAG, MCP, agent framework, AI form, AI quiz, AI assistant, AI automation
+### Audience
+career changers, high school grads, aspiring nurses, caregivers, home health aides, immigrants/ESL-friendly (if true)
 
-### Technical
-open source, self-hosted, API-first, webhook, Zapier, no-code, low-code, embeddable, white-label, multi-tenant, SSO, SAML
+### Adjacent programs (only if offered)
+CPR/BLS certification, home health aide, phlebotomy, medical assistant, patient care technician
 
 ---
 
 ## Do / Don't Quick Reference
 
 **DO:**
-- Vary the opening sentence across tiers
-- Use real numbers and specific differentiators
-- Match tone to audience (technical for devs, business for G2, excited for PH)
-- Include a founder/origin angle in startup directories
-- Lead with the AI-first angle in AI directories
+- Lock canonical NAP first; keep it byte-for-byte identical everywhere.
+- Vary the opening sentence and feature emphasis across surfaces.
+- Lead local listings with city + state + "state-approved" + a real outcome number.
+- Keep authority/accreditation surfaces strictly factual and current.
+- Ask every graduate for a review; respond to all of them.
 
 **DON'T:**
-- Copy-paste the same 150-word description everywhere
-- Use vague claims ("blazing fast", "game-changing")
-- Mention every feature — pick 3–5 per tier and rotate them
-- Lie about competitor features (AI engines cross-reference and de-rank)
-- Skip the tag list — it's how moderators route you to the right category
+- Copy-paste the same 150-word description across directories.
+- Keyword-stuff the business name on Google (suspension risk).
+- Incentivize or buy Google/Yelp reviews.
+- Claim accreditation, approval, or pass/placement rates you can't verify — state boards and AI engines cross-reference.
+- Use vague hype ("best in the area") without a number behind it.
