@@ -56,7 +56,7 @@ See each skill's **Related Skills** section for the full dependency map.
 <!-- SKILLS:START -->
 | Skill | Description |
 |-------|-------------|
-| [directory-submissions](skills/directory-submissions/) | When the user wants to submit their product to startup, SaaS, AI, agent, MCP, no-code, or review directories for... |
+| [directory-submissions](skills/directory-submissions/) | When the user wants easy, repeatable directory submissions and business/content profile creation to diversify a... |
 | [product-marketing](skills/product-marketing/) | When the user wants to create or update their product marketing context document. Also use when the user mentions... |
 <!-- SKILLS:END -->
 

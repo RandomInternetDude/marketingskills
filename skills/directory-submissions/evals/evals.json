@@ -3,86 +3,84 @@
   "evals": [
     {
       "id": 1,
-      "prompt": "I run a CNA training school in Rochester, NY and want more students to find us online. Help me plan all the directories and listings we should be on.",
-      "expected_output": "Should check for product-marketing.md first. Should run the Phase 0 readiness assessment (claimable address, Google Business Profile claimable, program page live, canonical NAP locked, privacy/terms, real photos, state-approval status/# and testing vendor). Should treat Google Business Profile as the anchor and NAP consistency as Rule 1. Should recommend the tier priority: Tier 1 core local search (GBP, Bing Places, Apple Business Connect, Yelp, Facebook, Nextdoor), Tier 2 local citations & data aggregators (Data Axle, Localeze, Foursquare, BBB, YP, Manta, local Chamber), Tier 3 school/education directories (Niche, RWM, Trade-Schools.net, AllAlliedHealthSchools, CareerOneStop), Tier 4 state authority (state nurse aide registry approved-program list, testing-vendor locator, ETPL), Tier 5 review platforms. Should explicitly skip SaaS/AI/startup directories. Should reference references/directory-list.md and references/positioning-variations.md. Should set local KPI targets (map-pack rank, reviews, citations).",
+      "prompt": "I run an education content site about CNA training. I want to diversify its backlink profile with directory and profile links. Build me a plan.",
+      "expected_output": "Should check for product-marketing.md first. Should run the readiness check (site live/indexed, brand kit, dedicated email alias, address decision, DR/referring-domain baseline). Should run Step 2 audit of existing profiles/listings before creating anything new. Should recommend tiers 1-6 (identity profiles, web directories, content profiles, blog directories, bookmarking, niche) and note Tier 7 local layer only applies with a real physical address. Should set honest expectations: these are foundation links for diversity, mostly nofollow, not a rankings silver bullet. Should propose weekly batches of 5-10 (velocity pacing), not a one-day blast. Should reference references/directory-list.md and the tracker CSV. Should set the KPI baseline and 90-day targets (referring domains, link-type mix, listings verified).",
       "assertions": [
         "Checks for product-marketing.md",
-        "Runs Phase 0 readiness assessment",
-        "Names Google Business Profile as the anchor",
-        "Emphasizes NAP consistency",
-        "Recommends local + education + state-authority tiers",
-        "Explicitly skips SaaS/AI/startup directories",
-        "Sets local KPI targets (map pack, reviews, citations)",
-        "References directory-list.md or positioning-variations.md"
+        "Runs readiness check including baseline DR/referring domains",
+        "Audits existing profiles/listings before creating new",
+        "Recommends tiers 1-6 and gates Tier 7 on a real address",
+        "Sets honest expectations about link value",
+        "Paces submissions in weekly batches rather than one blast",
+        "References directory-list.md or the tracker",
+        "Sets KPI baseline and 90-day targets"
       ],
       "files": []
     },
     {
       "id": 2,
-      "prompt": "Can I just copy-paste the same school description into every directory?",
-      "expected_output": "Should refuse and explain Rule 3: positioning varies by surface. Should note search + AI engines penalize duplicate content. Should explain different framing per surface: Google Business Profile/maps lead with city + state-approved + outcome, citation directories lead with NAP + category clarity, education directories lead with time-to-certify + pass rate, state/authority pages lead with factual approval status only. Should stress that the canonical NAP block stays byte-for-byte identical everywhere even though the description varies. Should reference references/positioning-variations.md.",
+      "prompt": "Can I just paste the same 150-word description into every directory and profile?",
+      "expected_output": "Should refuse and explain Rule 3: brand facts (name, URL, category) stay byte-for-byte identical, but descriptions vary per surface. Should explain search and AI engines discount duplicated boilerplate. Should point to the variation rules by surface type (identity profiles = factual, web directories = category-first, content platforms = editorial voice, bookmarking = page-first). Should mention the description ladder (tagline / 60-char / 150-word / 300-word) and tag rotation (pool of 12-15, use 5-8, never the identical set twice in a tier). Should reference references/positioning-variations.md.",
       "assertions": [
         "Refuses the request",
-        "Cites Rule 3 (positioning varies by surface)",
-        "Notes duplicate content is penalized",
-        "Distinguishes NAP (identical) from description (varies)",
-        "Lists different framing per surface",
+        "Distinguishes identical brand facts from varied descriptions",
+        "Notes duplicate boilerplate is discounted",
+        "Lists variation rules by surface type",
+        "Mentions the description ladder and tag rotation",
         "References positioning-variations.md"
       ],
       "files": []
     },
     {
       "id": 3,
-      "prompt": "Should we pay for one of those services that submits our school to 200 directories for $99?",
-      "expected_output": "Should say no, citing the 'What NOT to Do' rule against paid mass-submission services. Should explain the listings that matter (Google Business Profile, core citations, education directories, state-approved lists) are free and manual. Should warn that mass-submission services push to low-quality spam directories (DR under 10) that dilute the profile and can trigger spam detection, and that they can't get you onto the surfaces that actually matter for a local school (GBP, state registry, reviews). Should recommend manual submission with consistent NAP and the tracker.",
+      "prompt": "Should I buy one of those $99 services that submits my site to 500 directories?",
+      "expected_output": "Should say no, citing the rule against paid mass-submission packages. Should explain they hit spam directories (DR under 10, unmaintained, link farms) that dilute the link profile and can trigger spam classification. Should explain the platforms that matter are free and take minutes each, and the point is a curated, verified set — quality bar of DR ~40+ or genuine niche relevance. Should recommend the manual/agent-assisted batch workflow with the tracker instead.",
       "assertions": [
         "Refuses the service",
-        "Cites the no-paid-submission-services rule",
-        "Warns about low-DR spam directories",
-        "Notes services can't win the surfaces that matter (GBP, state list, reviews)",
-        "Recommends manual NAP-consistent submission"
+        "Cites the no-mass-submission rule",
+        "Warns about spam directories and dilution",
+        "States the quality bar (DR ~40+ or niche-relevant)",
+        "Recommends the curated batch workflow with tracker"
       ],
       "files": []
     },
     {
       "id": 4,
-      "prompt": "Walk me through setting up our Google Business Profile. We've never done it.",
-      "expected_output": "Should apply the Google Business Profile Deep Dive. Should cover: claim + verify (postcard/phone/video), use the exact canonical NAP name and NOT keyword-stuff it (suspension risk), pick a precise primary category (Vocational school / Training centre) plus secondary categories, set address/service area/hours/local phone, list each program as a service, add real photos (facility, skills lab, instructors, graduation), write the 'From the business' description, and seed Q&A (cost, length, schedule, financial aid, prerequisites). Should cover ongoing weekly work: post weekly (start dates, info sessions, graduate spotlights), respond to every review, keep hours and start dates current. Should tie completeness to ranking.",
+      "prompt": "I have a free weekend — I'm going to knock out all 60 submissions in one sitting. Good idea?",
+      "expected_output": "Should advise against it, citing Rule 4 (velocity pacing): a sudden spike of near-identical new links looks manufactured; drip 5-10 per week instead. Should also give the practical reasons: verification emails need same-day confirmation, per-platform quirks need logging, and a slow pace makes dofollow/live verification manageable. Should suggest using the weekend to lock the brand kit, do the Step 2 audit of existing listings, and prepare the tracker instead.",
       "assertions": [
-        "Covers claim + verification",
-        "Warns against keyword-stuffing the business name",
-        "Recommends precise primary + secondary categories",
-        "Says add real photos and services",
-        "Includes weekly posting + review responses",
-        "Ties profile completeness to ranking"
+        "Advises against the one-day blast",
+        "Cites velocity pacing (5-10 per week)",
+        "Explains the manufactured-spike footprint concern",
+        "Gives practical batch-quality reasons",
+        "Redirects the effort to brand kit, audit, and tracker prep"
       ],
       "files": []
     },
     {
       "id": 5,
-      "prompt": "How do we get more reviews for the school? We just graduated a class of 15.",
-      "expected_output": "Should present the graduation review protocol: the week of certification, message every graduate who had a good experience with ONE direct review link (default Google), frame it as helping future students, follow up once after ~5 days, target ~50% response. Should stress you must NOT buy or incentivize Google/Yelp reviews (terms violation, removal/suspension risk), and must NOT solicit Yelp reviews specifically (its filter suppresses solicited ones). Should recommend responding to every review, and spreading across Google first then Facebook/Niche/BBB over time. Should reference the review-request email template in references/positioning-variations.md. Should note reviews are the enrollment driver and a map-pack ranking factor.",
+      "prompt": "My site is online-only — no office, no storefront. Which directories can I actually use, and what do I put in the address fields?",
+      "expected_output": "Should identify the no-address path: Tier 1 identity profiles, Tier 3 content profiles, Tier 4 blog directories, Tier 5 bookmarking, and the no-address web directories (e.g., WebWiki, Curlie) all work without a street address. Should state that Tier 7 (Google Business Profile, local citations) is off-limits — never fake an address for GBP (suspension risk, poisons trust). Should address privacy: never put a home address on public listings; use the registered business or virtual-office address for directories that require one, or skip them. Should note the catalog marks which platforms require an address.",
       "assertions": [
-        "Lays out the graduation review protocol with one direct link",
-        "Warns against buying/incentivizing reviews",
-        "Warns specifically against soliciting Yelp reviews",
-        "Recommends responding to every review",
-        "Prioritizes Google first, then other platforms",
-        "Notes reviews drive ranking and enrollment"
+        "Identifies the no-address tiers and platforms",
+        "Forbids faking an address for Google Business Profile",
+        "Warns never to use a home address publicly",
+        "Offers registered/virtual address or skipping as options",
+        "Points to the address column in the catalog/tracker"
       ],
       "files": []
     },
     {
       "id": 6,
-      "prompt": "We're on Google and Yelp already and got a few listings. What else moves the needle for a local school?",
-      "expected_output": "Should pivot beyond basic listings to the highest-trust and highest-intent surfaces: getting onto the state nurse aide registry approved-program list and testing-vendor locator (Tier 4 authority — worth more than many generic links), claiming education/school directories (Niche, RWM, AllAlliedHealthSchools, CareerOneStop via state ETPL), building city/program destination pages (/cna-classes-[city]) with FAQ schema, a funding/financial-aid page, and an honest 'best CNA programs in [city]' resource. Should cover GEO for AI answer engines ('best CNA classes in [city]' — get on high-authority local/review/state sources, claim LinkedIn/Crunchbase, FAQ schema). Should cover local press / 'best of' listicle outreach. Should stress NAP-consistent citations over volume and tracking local KPIs (map-pack rank, reviews, AI citations) rather than just submitting more.",
+      "prompt": "If I do all these directory submissions, how much will my rankings improve?",
+      "expected_output": "Should give the honest answer: individually these links are weak and mostly nofollow; directories alone won't move competitive rankings. Should explain the real value: a diverse, natural-looking base of referring domains, brand entity verification (Google + AI answer engines cross-reference Crunchbase/LinkedIn/major directories), owning brand-name search results, and a small amount of dofollow equity. Should frame them as the foundation layer that supports content and editorial links, and point to the KPI table (referring domains +30-50, link-type mix, listings verified) rather than promising ranking positions. Should warn that anyone promising rankings from directories alone is selling snake oil.",
       "assertions": [
-        "Prioritizes state-approved-program list / testing-vendor authority",
-        "Recommends education/school directories",
-        "Recommends city/program destination pages with schema",
-        "Covers GEO for AI answer engines",
-        "Includes local press / listicle outreach",
-        "Emphasizes NAP consistency and local KPIs over volume"
+        "States individually weak / mostly nofollow honestly",
+        "Explains diversity and entity-verification value",
+        "Mentions AI answer engines cross-referencing major profiles",
+        "Frames directories as the foundation supporting content links",
+        "Points to KPI targets rather than promised rankings",
+        "Includes the snake-oil warning"
       ],
       "files": []
     }

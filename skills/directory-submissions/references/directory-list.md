@@ -1,179 +1,164 @@
-# Directory List — CNA / Healthcare Training + Local (Full Reference)
+# Platform Catalog — Directories & Profile Links (Full Reference)
 
-Canonical list of directories organized by tier, oriented to **local CNA / healthcare / allied-health training programs** and other local service businesses. DR values are approximate and drift over time — verify via Ahrefs or Moz before building a plan around them.
+Canonical list of platforms organized by tier, for building **link-profile diversity** for a website. DR values are approximate and drift — verify via Ahrefs or Moz before building a plan around them. All URLs verified alive as of 2026-07.
 
 **Column legend:**
 - **DR** — Domain Rating (Ahrefs). Higher = more link equity passed.
-- **Dofollow** — Whether the backlink passes SEO value. Nofollow listings still matter for referral traffic, map-pack ranking, and brand/NAP signals.
-- **Cost** — Free unless noted.
+- **Link** — Dofollow / Nofollow / n/a. Nofollow still counts toward diversity, brand signals, and AI-engine presence.
+- **Address** — Whether the platform requires a public street address. **Never use a home address** — registered business or virtual office only.
 
-> **NAP consistency is the whole game for local.** Name, Address, Phone (and hours, categories, website URL) must be **byte-for-byte identical** across every listing. Inconsistent NAP is the #1 cause of weak local rankings. Decide the canonical format once (in `references/positioning-variations.md`) and never deviate.
+> **Catalogs rot.** Directories die, get bought, or flip links to nofollow without notice. Before submitting to anything below, spot-check that it's still alive and indexed (`curl -sI <url>`, or just load it). Delete dead rows from your tracker rather than submitting into the void.
 
 ---
 
-## Tier 1 — Core Local Search Platforms (The Anchor)
+## Tier 1 — Core Identity Profiles
 
-For a local training school, these are the equivalent of "Product Hunt" — the highest-leverage listings. Google Business Profile is the single most important asset. Claim, verify, and fully complete each.
+High-authority platforms where the brand should simply *exist*, complete and consistent. Mostly nofollow — the value is entity verification (Google + AI engines cross-reference these) and owning page 1 of your brand-name search.
 
-| Platform | DR | Dofollow | Cost | Notes |
+| Platform | DR | Link | Address | Notes |
 |---|---|---|---|---|
-| **Google Business Profile** | 100 | n/a | Free | **The anchor.** Drives the map pack + Google reviews + "CNA classes near me". Verify by postcard/video, pick precise categories ("Nurses' association" / "Vocational school" / "Training centre"), add photos, hours, services, Q&A, and post weekly. Reviews here matter more than any backlink. |
-| **Bing Places** | 95 | n/a | Free | Import directly from Google Business Profile. Feeds Bing + Copilot local results. |
-| **Apple Business Connect** | 100 | n/a | Free | Apple Maps listing. iPhone users searching "CNA training near me" land here. Add "Showcases" (offers/photos). |
-| **Yelp** | 92 | Nofollow | Free | High-authority local citation + review engine. Do NOT solicit reviews (Yelp filters them); ask for organic feedback instead. |
-| **Facebook Page** | 100 | Nofollow | Free | Local discovery + reviews/recommendations + events for open houses/info sessions. Keep NAP identical. |
-| **Nextdoor Business** | 90 | Nofollow | Free | Neighborhood-level word of mouth. Strong for local services; residents recommend programs to each other. |
-| **Instagram Business** | 94 | Nofollow | Free | Link-in-bio to program page; Reels of the skills lab / graduation convert locally. |
+| **LinkedIn Company Page** | 98 | Nofollow | No | Company page + occasional posts. Feeds AI training corpora. |
+| **Crunchbase** | 91 | Nofollow* | No | Organization profile. Heavily cross-referenced by AI engines. (*paid profiles get dofollow) |
+| **Facebook Page** | 100 | Nofollow | No | Brand page. Also a login for many directories. |
+| **X (Twitter)** | 99 | Nofollow | No | Profile link + pinned post. |
+| **YouTube channel** | 100 | Nofollow | No | Channel + description links. Even a few videos help brand search. |
+| **Pinterest Business** | ~94 | Nofollow | No | Strong for content/education sites — boards per topic, pins link to articles. |
+| **Instagram Business** | 94 | Nofollow | No | Link in bio. |
+| **Gravatar** | 90 | Yes | No | 2-minute setup; profile with website link. |
+| **About.me** | 85 | Yes | No | One-page profile with dofollow link. |
+| **Dun & Bradstreet** | 93 | Nofollow | Yes | Real business credibility signal; feeds B2B data ecosystems. Requires DUNS. |
+| **GitHub org** | 98 | Varies | No | Only if the brand genuinely has code/tools to show. |
 
 ---
 
-## Tier 2 — Local Citations & Data Aggregators
+## Tier 2 — Web & Business Directories
 
-These are the "SaaS directory" equivalent — bulk citation sources that build NAP authority and feed hundreds of downstream directories. Prioritize the **four primary US data aggregators** first; correcting them fixes NAP across the long tail.
+General directories that accept online businesses. Most require an address (use the registered/virtual one). These carry most of the dofollow equity in this playbook.
 
-**Primary data aggregators (do these first):**
-
-| Aggregator | DR | Dofollow | Cost | Notes |
+| Platform | DR | Link | Address | Notes |
 |---|---|---|---|---|
-| **Data Axle (Express Update)** | 80 | n/a | Free | Feeds many GPS/voice/search products. |
-| **Neustar Localeze** | 78 | n/a | Free/paid | Major citation source feeding downstream directories. |
-| **Foursquare** | 90 | Nofollow | Free | Feeds Apple Maps, Uber, Samsung, and many apps. Claim via business.foursquare.com. |
-| **Yext / Uberall** (optional paid) | — | — | Paid | One dashboard pushes NAP to 50+ networks. Optional; the free primaries cover most value. |
+| **Hotfrog** | 72 | Dofollow | Yes | International business directory. |
+| **Brownbook** | 63 | Dofollow | Yes | Global, easy submission. |
+| **Cylex** | 64 | Dofollow | Yes | International directory network. |
+| **WebWiki** | 60 | Dofollow | No | Website directory with reviews — takes sites, not just businesses. |
+| **chamberofcommerce.com** | 50 | Dofollow | Yes | The .com directory (distinct from your local chamber). |
+| **Curlie** | ~75 | Dofollow | No | DMOZ successor. Volunteer-edited; submission is slow and rejection is common — one honest attempt, then move on. |
+| **Manta** | 76 | Dofollow | Yes | US small-business directory. |
+| **MerchantCircle** | 68 | Dofollow | Yes | US business directory. |
+| **Showmelocal** | 64 | Dofollow | Yes | US directory. |
+| **iBegin** | 60 | Dofollow | Yes | US directory. |
+| **eLocal** | 55 | Dofollow | Yes | US service directory. |
+| **CitySquares** | 55 | Dofollow | Yes | US directory. |
+| **2FindLocal** | 53 | Dofollow | Yes | US directory. |
+| **BBB profile** | 92 | Nofollow | Yes | Free profile; strong trust signal. Accreditation optional/paid. |
 
-**Core US business directories:**
+---
 
-| Directory | DR | Dofollow | Cost | Notes |
+## Tier 3 — Content & Publishing Profiles
+
+Create a profile (and a small amount of real content) on high-DR publishing platforms. The profile links back; cross-posted content links back with canonical. **Only claim what you'll keep minimally alive** — one real post beats ten empty shells.
+
+| Platform | DR | Link | Address | Notes |
 |---|---|---|---|---|
-| **Better Business Bureau (BBB)** | 92 | Nofollow | Free profile / paid accreditation | Trust signal parents/students check. Free profile first; accreditation optional. |
-| **YP.com (Yellow Pages)** | 88 | Yes | Free | Classic citation, still high DR. |
-| **Superpages** | 78 | Yes | Free | Dex/Thryv network. |
-| **MapQuest** | 90 | n/a | Free | Map listing; feeds some in-car nav. |
-| **Manta** | 76 | Yes | Free | US small-business directory. |
-| **Hotfrog** | 72 | Yes | Free | International business directory. |
-| **MerchantCircle** | 68 | Yes | Free | US small business. |
-| **Cylex** | 64 | Yes | Free | International directory. |
-| **Brownbook** | 63 | Yes | Free | Global directory. |
-| **Chamber of Commerce (local + chamberofcommerce.com)** | 50 | Yes | Free/membership | Join your **local** chamber — regional relevance + real referrals + often a dofollow member link. |
-| **CitySquares** | 55 | Yes | Free | US local. |
-| **eLocal** | 55 | Yes | Free | US service providers. |
-| **2FindLocal** | 53 | Yes | Free | US local. |
-| **iBegin** | 60 | Yes | Free | US business directory. |
-| **Showmelocal** | 64 | Yes | Free | US local search. |
-| **eZlocal / FindUsLocal** | 50 | Yes | Free | Local listings. |
-| **Angi** | 80 | Nofollow | Free/paid | Service marketplace; relevant if you also offer CPR/BLS or home-health add-on training. |
+| **WordPress.com** | 100 | Dofollow | No | Free blog; profile + post links. |
+| **Blogger** | 100 | Dofollow | No | Google property; same pattern. |
+| **Tumblr** | 99 | Dofollow | No | Microblog; queue a trickle of posts. |
+| **Medium** | 95 | Nofollow | No | Republish articles with canonical link back. Big brand surface. |
+| **Substack** | 93 | Dofollow | No | Newsletter profile; even a low-frequency digest works. |
+| **SlideShare** | 95 | Nofollow | No | Upload guides/checklists as decks. |
+| **Scribd** | 93 | Nofollow | No | Upload PDFs (guides, checklists). |
+| **Issuu** | 92 | Nofollow | No | Digital publishing; PDFs/brochures. |
+| **Calameo** | 89 | Dofollow | No | PDF publishing with profile link. |
+| **HubPages** | 84 | Varies | No | Article platform; editorial review. |
+| **Flipboard** | ~92 | Nofollow | No | Curate a magazine of your own + related articles. |
 
 ---
 
-## Tier 3 — School, Training & Education Directories
+## Tier 4 — Blog & RSS Directories
 
-These target people actively searching for classes/programs — the highest-intent audience. Only list where a CNA / allied-health / vocational program genuinely fits.
+Submit the site's blog/RSS feed. Small but real: these get crawled constantly and add feed-level diversity.
 
-| Directory | DR | Dofollow | Cost | Notes |
+| Platform | DR | Link | Address | Notes |
 |---|---|---|---|---|
-| **Niche.com** | 85 | Nofollow | Free claim | Major school-review + discovery platform. Claim your school profile; reviews here rank in Google. |
-| **RWM.org (RWM Vocational School Database)** | 60 | Yes | Free | Long-running trade/vocational school directory. |
-| **Trade-Schools.net** | 55 | Varies | Free/lead-gen | Vocational + healthcare training listings. Some listings are paid lead-gen. |
-| **AccreditedSchoolsOnline.org** | 70 | Varies | Editorial | Healthcare/education program rankings and guides. |
-| **AllAlliedHealthSchools.com** | 55 | Varies | Free/lead-gen | Allied-health-specific (CNA, MA, phlebotomy). High topical relevance. |
-| **NursingAssistantGuides / CNA guide sites** | 30–45 | Varies | Free | State-by-state CNA class aggregators (e.g., cnaclasses.org, cna-license.com, cnafreetraining.com, nursingassistantcentral). Verify each is real, indexed, and not spam before submitting. |
-| **CareerOneStop Training Finder (DOL)** | 90 | Nofollow | Free | US Dept. of Labor training provider finder. High authority; get listed via your state's ETPL (below). |
-| **Local community-college / workforce partner pages** | varies | Often Yes | Free | If you partner with a WIOA/workforce board or community college, request a listing/link on their partner page. |
-| **GreatSchools / SchoolDigger** | 80 | Nofollow | Free | K-12 focused — usually N/A for CNA, list only if you run a school with K-12 overlap. |
+| **Feedspot** | 80 | Varies | No | Blog directory + "top blogs" lists — a genuine education-blogs section. |
+| **Alltop** | 73 | Dofollow | No | Guy Kawasaki's aggregator; topic pages including education. |
+| **Blogarama** | 64 | Varies | No | Long-running blog directory. |
+| **OnToplist** | 60 | Varies | No | Blog ranking directory. |
+| **BlogEngage** | 55 | Varies | No | Blog promotion community. |
 
 ---
 
-## Tier 4 — State Authority & Accreditation Pages (Highest Trust)
+## Tier 5 — Bookmarking & Curation
 
-These are not backlink plays — they are **authority and citation** plays. AI engines and prospective students trust them above everything. Getting your program onto a state-approved list is worth more than 50 generic directory links.
+Bookmark your best pages (and, for cover, good third-party content too). Low individual value, cheap diversity. Don't bookmark every page — curate.
 
-| Source | Why it matters | How to get on it |
-|---|---|---|
-| **State Nurse Aide Registry — approved training program list** | The canonical "is this program legit?" source. In NY (and most states) the state Health Department / education dept publishes the list of state-approved CNA training programs. | Maintain state approval; confirm your program appears and details are correct. For NY, verify listing with the NYSED/DOH approved-program list and the testing vendor (Prometric / Credentia / Pearson VUE, depending on state). |
-| **Testing-vendor program locator** (Prometric / Credentia / Pearson VUE / Headmaster) | Vendors that administer the CNA competency exam often publish approved-site/program locators students use. | Confirm your site is listed accurately with the vendor for your state. |
-| **State ETPL (Eligible Training Provider List)** | Makes your program eligible for WIOA-funded students AND lists you on CareerOneStop. | Apply through your state workforce agency; strong recurring enrollment channel. |
-| **American Red Cross / employer partner training pages** | Regional relevance + referral pipeline. | If you're a partner or feed graduates to a health system, request a listing/link. |
-
-> **Do not misrepresent approval status.** AI engines and state boards cross-reference approved-program lists; false accreditation claims get pages de-ranked and can create regulatory exposure.
-
----
-
-## Tier 5 — Review Platforms (The Enrollment Driver)
-
-For a local school, **reviews outrank backlinks** for both map-pack ranking and enrollment decisions. Run the review protocol (see SKILL.md) across these.
-
-| Platform | DR | Notes |
-|---|---|---|
-| **Google reviews (via GBP)** | 100 | The single most important review surface. Target volume + recency + owner responses. Ask every graduate. |
-| **Yelp** | 92 | Do not solicit (filter risk) — earn organically. Respond professionally to all. |
-| **Facebook Recommendations** | 100 | Easy for local students to leave; shows in local search. |
-| **Niche.com reviews** | 85 | School-specific reviews that rank in Google for "[school name] reviews". |
-| **BBB reviews** | 92 | Trust signal for tuition-paying decisions. |
-| **Trustpilot** | 92 | Optional; useful if you also sell online/CE courses. |
-| **Indeed company reviews** | 92 | If you employ instructors/aides, company reviews add credibility + a company profile link. |
-
-**Cross-platform rule:** send each graduate a **direct review link** to ONE platform (default: Google) — one ask, one link, minimal friction. Never buy or incentivize reviews on Google/Yelp (against their terms); a sincere "would you share your experience?" email the week of certification converts best.
+| Platform | DR | Link | Address | Notes |
+|---|---|---|---|---|
+| **Scoop.it** | 91 | Nofollow | No | Topic pages; curate your niche including your own articles. |
+| **Diigo** | 85 | Nofollow | No | Bookmarking + annotation. |
+| **Pearltrees** | 84 | Nofollow | No | Visual collections. |
+| **Folkd** | 64 | Varies | No | Social bookmarking. |
+| **Mix** | ~70 | Nofollow | No | StumbleUpon successor. |
 
 ---
 
-## Tier 6 — Local Press, Community & "Best Of" Listings
+## Tier 6 — Niche Directories (fit-dependent)
 
-Editorial mentions on local high-DR domains combine a strong local backlink with trust and referral traffic. Often more valuable than a generic directory.
+Only where the site genuinely belongs. For an **education/career content site** (e.g., CNA/healthcare training info):
 
-**Targets:**
-- **Local newspaper / TV station sites** (often DR 70–90) — pitch a graduation story, a "local demand for CNAs" angle, or a scholarship announcement.
-- **Patch.com** (DR ~85) — hyperlocal news; community announcements and business directory.
-- **Local "best CNA classes in [city]" listicles** — cold-outreach for inclusion; be honest, offer a tour/quote.
-- **Local .gov workforce / one-stop career center pages** — request a training-provider listing.
-- **Local library / community-center resource pages** — many link to approved local training programs.
+| Platform | Notes |
+|---|---|
+| **Feedspot education/nursing blog lists** | Submit the blog to the relevant category list. |
+| **Alltop education page** | Topic submission. |
+| **Wellness.com** | Health directory — only if the site genuinely fits the health category. |
+| **State/city resource pages** | Libraries, workforce boards, and .gov career pages sometimes list free educational resources via a simple suggestion form. Only where a form exists — chasing these via email is outreach, out of scope. |
+| **Scholarship/financial-aid directories** | Only if the site actually operates a scholarship. |
 
-**Search patterns:**
-- `"CNA classes in [city]"` / `"best CNA programs [state]"`
-- `"[city] vocational training" directory`
-- `site:patch.com [your city] business`
-
-**Outreach template (short):**
-> Hi [name], I run [School] — a state-approved CNA program here in [city]. Saw your piece on [local healthcare/jobs topic]. We've graduated [N] students with a [X]% exam pass rate and [Y]% job placement. Happy to give you numbers, a quote, or a tour if it'd help a story or roundup. No worries if not a fit.
+For other verticals, find equivalents: `"[niche] directory" site:*.com`, `"submit your site" [niche]`, `"[niche] resources" inurl:links`. Vet each: alive, indexed, editorially maintained, DR 30+.
 
 ---
 
-## Tier 7 — General High-DR Profile & Citation Platforms
+## Tier 7 — Local Layer (real physical address only)
 
-Create a profile or company page on these to earn additional citations/backlinks and feed AI training corpora. Not local-specific, but they raise domain authority and reinforce NAP.
+Applies **only** when the business has a genuine physical presence. This is where NAP consistency becomes the whole game: Name, Address, Phone identical byte-for-byte everywhere.
 
-| Platform | DR | Type | Notes |
+**Core (the anchor):**
+
+| Platform | DR | Link | Notes |
 |---|---|---|---|
-| **LinkedIn Company Page** | 98 | Profile | Company page + posts. Feeds AI corpora; instructors can link back. |
-| **Crunchbase** | 91 | Profile | Organization profile with website link. Feeds AI answers. |
-| **Dun & Bradstreet** | 93 | B2B directory | Business credibility + citation. |
-| **YouTube channel** | 100 | Content | Skills-lab / testimonial / "day in the life of a CNA" videos; description links back. |
-| **WordPress.com / Blogger** | 100 | Blog | Secondary blog cross-posting program content with a dofollow link. |
-| **Medium** | 95 | Blog | Republish enrollment/career articles (canonical back to your site). |
-| **Substack** | 93 | Newsletter | Prospective-student nurture + dofollow link. |
-| **Alignable** | 75 | Local B2B network | Local business networking + referrals + profile link. |
-| **Wikidata / Wikipedia (if notable)** | 95+ | Reference | Only if genuinely notable; feeds AI training corpora heavily. |
+| **Google Business Profile** | 100 | n/a | The anchor for any local business. Verify, precise categories, complete every field, real photos, weekly posts. Reviews here outrank every backlink. |
+| **Bing Places** | 95 | n/a | Import from GBP. |
+| **Apple Business Connect** (business.apple.com) | 100 | n/a | Apple Maps listing. |
+| **Yelp** | 92 | Nofollow | Claim it; never solicit reviews (filter risk). |
+| **Nextdoor Business** | 90 | Nofollow | Neighborhood referrals. |
 
----
+**Data aggregators (feed the long tail):**
 
-## Tier 8 — Health & Career-Vertical Directories (Optional)
+| Platform | Notes |
+|---|---|
+| **Data Axle Local Listings** (local-listings.data-axle.com) | Formerly Infogroup/Express Update. |
+| **Localeze** (TransUnion, neustarlocaleze.biz) | Major citation feed. |
+| **Foursquare** (business.foursquare.com) | Feeds Apple Maps, Uber, and many apps. |
 
-Only where the fit is genuine (e.g., you also offer CPR/BLS, home health aide, phlebotomy, or med-tech training).
+**Core citations:** BBB, YP.com, Superpages, MapQuest, Manta, local Chamber of Commerce (join the real local one — referrals + often a dofollow member link).
 
-| Directory | DR | Notes |
-|---|---|---|
-| **Wellness.com** | 60 | Health & wellness directory. |
-| **CareerOneStop / state job-center provider lists** | 90 | Covered in Tier 4; also a discovery surface. |
-| **Local hospital / SNF "career pathways" partner pages** | varies | Request a training-partner listing where you feed graduates. |
-| **Indeed / ZipRecruiter company profile** | 90+ | If you post instructor/aide roles, the company profile adds credibility + a link. |
+**Vertical authority (worth more than any directory):** for a licensed/regulated business, the official lists — e.g., a training program's state approved-program list, testing-vendor locator (Prometric / Credentia / Pearson VUE), and workforce/ETPL listings (which also feed CareerOneStop). Keep these factually accurate; never overstate approval status.
+
+**Local hygiene:**
+- Find and fix duplicate listings before creating new ones — duplicates split review equity and confuse Google's entity matching.
+- One GBP + one landing page per location.
+- Never keyword-stuff the GBP business name (suspension risk).
+- School-adjacent directories if relevant: Niche.com (claim the school profile), Trade-Schools.net, AllAlliedHealthSchools (both are lead-gen; list only if the listing itself has value).
 
 ---
 
 ## Verification
 
-After any submission goes live, verify the listing and (where relevant) the backlink.
+After any submission goes live:
 
-1. **NAP audit:** confirm Name, Address, Phone, hours, categories, and website URL match your canonical format **exactly**. Run a periodic scan (e.g., Moz Local / BrightLocal / manual spot-check of top 20).
-2. **Backlink check (dofollow):** `curl -sIL https://directory.com/your-listing | grep -i rel=` — if no `rel="nofollow"`/`"ugc"` appears near your link, it's dofollow. (Many local/review platforms are nofollow by design; that's fine — they still drive map-pack ranking and referrals.)
-3. **Map-pack check:** search "CNA classes near me" / "CNA training [city]" from an incognito window and log where you appear.
-4. **Reviews check:** track review count, average rating, and recency per platform monthly.
+1. **Load the listing** — correct name, URL, description; no truncation.
+2. **Dofollow check** (where it matters): inspect the link element for `rel="nofollow"` / `rel="ugc"`, or `curl -sL <listing-url> | grep -io '<a[^>]*your-domain[^>]*>'` and read the `rel` attribute. Absent = dofollow.
+3. **Indexed check** (top platforms): `site:<listing-url>` on Google after a few weeks.
+4. **Ahrefs/Semrush**: confirm the referring domain appears.
 
-**Re-verify quarterly.** Directories and aggregators silently change NAP or flip links to nofollow — if local rankings stall, re-audit your primary citations and Google Business Profile first.
+**Re-verify quarterly.** Platforms flip to nofollow, restructure URLs, or purge dormant accounts without notice. If referring-domain counts stall, re-audit the top 20 listings by DR first.

@@ -1,62 +1,60 @@
-Directory,Tier,URL,Category,DR,Dofollow,Submission Date,Status,Live URL,Backlink Verified,Positioning Variant Used,Tags Used,Account Email,Notes
-Google Business Profile,1,https://business.google.com,Local search,100,n/a,,Draft,,,GBP anchor,,,Verify by postcard/video; pick precise categories; anchor asset
-Bing Places,1,https://www.bingplaces.com,Local search,95,n/a,,Draft,,,Local citation,,,Import from Google Business Profile
-Apple Business Connect,1,https://businessconnect.apple.com,Local search,100,n/a,,Draft,,,Local citation,,,Apple Maps listing; add Showcases
-Yelp,1,https://biz.yelp.com,Review + local,92,No,,Draft,,,Local citation,,,Do NOT solicit reviews (filter risk)
-Facebook Page,1,https://www.facebook.com/pages/create,Local + reviews,100,No,,Draft,,,Local citation,,,Events for open houses; keep NAP identical
-Nextdoor Business,1,https://business.nextdoor.com,Local,90,No,,Draft,,,Local citation,,,Neighborhood word of mouth
-Instagram Business,1,https://business.instagram.com,Local social,94,No,,Draft,,,Local citation,,,Link-in-bio to program page
-Data Axle (Express Update),2,https://www.expressupdate.com,Data aggregator,80,n/a,,Draft,,,Local citation,,,Primary US aggregator — do first
-Neustar Localeze,2,https://www.neustarlocaleze.biz,Data aggregator,78,n/a,,Draft,,,Local citation,,,Primary US aggregator
-Foursquare,2,https://business.foursquare.com,Data aggregator,90,No,,Draft,,,Local citation,,,Feeds Apple Maps/Uber/many apps
-Better Business Bureau,2,https://www.bbb.org/get-listed,Trust directory,92,No,,Draft,,,Local citation,,,Free profile first; accreditation optional
-YP.com,2,https://www.yellowpages.com,Local business,88,Yes,,Draft,,,Local citation,,,Classic high-DR citation
-Superpages,2,https://www.superpages.com,Local business,78,Yes,,Draft,,,Local citation,,,Dex/Thryv network
-MapQuest,2,https://www.mapquest.com,Map listing,90,n/a,,Draft,,,Local citation,,,
-Manta,2,https://www.manta.com,Local business,76,Yes,,Draft,,,Local citation,,,US small business
-Hotfrog,2,https://www.hotfrog.com,Local business,72,Yes,,Draft,,,Local citation,,,
-MerchantCircle,2,https://www.merchantcircle.com,Local business,68,Yes,,Draft,,,Local citation,,,
-Cylex,2,https://www.cylex.us.com,Local business,64,Yes,,Draft,,,Local citation,,,
-Brownbook,2,https://www.brownbook.net,Local business,63,Yes,,Draft,,,Local citation,,,
-Local Chamber of Commerce,2,,Local business,50,Yes,,Draft,,,Local citation,,,Join YOUR local chamber — regional relevance + referrals
-chamberofcommerce.com,2,https://www.chamberofcommerce.com,Local business,50,Yes,,Draft,,,Local citation,,,
-CitySquares,2,https://citysquares.com,Local business,55,Yes,,Draft,,,Local citation,,,
-eLocal,2,https://elocal.com,Local business,55,Yes,,Draft,,,Local citation,,,
-2FindLocal,2,https://www.2findlocal.com,Local business,53,Yes,,Draft,,,Local citation,,,
-iBegin,2,https://www.ibegin.com,Local business,60,Yes,,Draft,,,Local citation,,,
-Showmelocal,2,https://www.showmelocal.com,Local business,64,Yes,,Draft,,,Local citation,,,
-Angi,2,https://www.angi.com,Service marketplace,80,No,,Draft,,,Local citation,,,Only if you also offer CPR/BLS/home-health training
-Niche.com,3,https://www.niche.com,School directory,85,No,,Draft,,,Education directory,,,Claim school profile; reviews rank in Google
-RWM.org,3,https://www.rwm.org,Vocational directory,60,Yes,,Draft,,,Education directory,,,Trade/vocational school database
-Trade-Schools.net,3,https://www.trade-schools.net,Education,55,Varies,,Draft,,,Education directory,,,Some listings are paid lead-gen
-AccreditedSchoolsOnline,3,https://www.accreditedschoolsonline.org,Education,70,Varies,,Draft,,,Education directory,,,Editorial rankings/guides
-AllAlliedHealthSchools,3,https://www.allalliedhealthschools.com,Allied health,55,Varies,,Draft,,,Education directory,,,High topical relevance (CNA/MA/phlebotomy)
-CNA aggregator sites,3,,CNA directory,30,Varies,,Draft,,,Education directory,,,Verify each (cnaclasses.org / cna-license.com etc.) is real + indexed before submitting
-CareerOneStop Training Finder,3,https://www.careeronestop.org,Gov training finder,90,No,,Draft,,,State authority,,,Get listed via state ETPL
-Community college / workforce partner,3,,Partner page,,Often Yes,,Draft,,,Education directory,,,Request listing/link on partner page
-State Nurse Aide Registry approved list,4,,State authority,,No,,Draft,,,State authority,,,Confirm program appears + details correct (NY: NYSED/DOH)
-Testing vendor program locator,4,,State authority,,No,,Draft,,,State authority,,,Prometric / Credentia / Pearson VUE (per state)
-State ETPL,4,,Workforce authority,,No,,Draft,,,State authority,,,Apply via state workforce agency; enables WIOA funding
-Red Cross / employer partner page,4,,Partner authority,,Varies,,Draft,,,State authority,,,If partner or graduate-feeder
-Google reviews (via GBP),5,https://business.google.com,Reviews,100,n/a,,Draft,,,Review request,,,Most important review surface — ask every graduate
-Yelp reviews,5,https://biz.yelp.com,Reviews,92,No,,Draft,,,Review request,,,Earn organically; never solicit
-Facebook Recommendations,5,https://www.facebook.com,Reviews,100,No,,Draft,,,Review request,,,
-Niche.com reviews,5,https://www.niche.com,Reviews,85,No,,Draft,,,Review request,,,Ranks for "[school] reviews"
-BBB reviews,5,https://www.bbb.org,Reviews,92,No,,Draft,,,Review request,,,Trust signal for tuition decision
-Trustpilot,5,https://www.trustpilot.com,Reviews,92,No,,Draft,,,Review request,,,Optional; for online/CE courses
-Indeed company reviews,5,https://www.indeed.com,Reviews,92,No,,Draft,,,Review request,,,If you employ instructors/aides
-Local newspaper/TV site,6,,Local press,,Varies,,Draft,,,Local press,,,Pitch graduation / CNA-demand / scholarship story
-Patch.com,6,https://patch.com,Hyperlocal news,85,Varies,,Draft,,,Local press,,,Community announcements + business directory
-Best CNA classes in [city] listicle,6,,Editorial listicle,,Yes,,Draft,,,Local press,,,Cold outreach for inclusion; offer tour/quote
-Local .gov workforce / career center,6,,Gov resource,,Varies,,Draft,,,State authority,,,Request training-provider listing
-LinkedIn Company Page,7,https://www.linkedin.com/company/setup/new,Profile,98,No,,Draft,,,Profile citation,,,Feeds AI corpora
-Crunchbase,7,https://www.crunchbase.com,Profile,91,Yes,,Draft,,,Profile citation,,,Org profile with website link
-Dun & Bradstreet,7,https://www.dnb.com,B2B directory,93,No,,Draft,,,Profile citation,,,Business credibility
-YouTube channel,7,https://www.youtube.com,Content,100,No,,Draft,,,Profile citation,,,Skills-lab/testimonial videos; link in description
-WordPress.com / Blogger,7,https://wordpress.com,Blog,100,Yes,,Draft,,,Profile citation,,,Secondary blog cross-post
-Medium,7,https://medium.com,Blog,95,No,,Draft,,,Profile citation,,,Republish with canonical
-Substack,7,https://substack.com,Newsletter,93,Yes,,Draft,,,Profile citation,,,Prospective-student nurture
-Alignable,7,https://www.alignable.com,Local B2B network,75,No,,Draft,,,Profile citation,,,Local networking + referrals
-Wellness.com,8,https://www.wellness.com,Health directory,60,Yes,,Draft,,,Local citation,,,Only if genuine health fit
-Indeed / ZipRecruiter company profile,8,https://www.indeed.com,Employer profile,92,No,,Draft,,,Profile citation,,,If posting instructor/aide roles
-Local hospital/SNF career-pathways page,8,,Partner page,,Varies,,Draft,,,State authority,,,Request training-partner listing
+Platform,Tier,URL,Type,DR,Dofollow,Address Required,Submission Date,Status,Live URL,Link Verified,Variant Used,Account Email,Notes
+LinkedIn Company Page,1,https://www.linkedin.com/company/setup/new,Identity profile,98,No,No,,Draft,,,Identity,,Complete every field; feeds AI corpora
+Crunchbase,1,https://www.crunchbase.com,Identity profile,91,No,No,,Draft,,,Identity,,Org profile; heavily cross-referenced by AI engines
+Facebook Page,1,https://www.facebook.com/pages/create,Identity profile,100,No,No,,Draft,,,Identity,,Also a login for many directories
+X (Twitter),1,https://x.com,Identity profile,99,No,No,,Draft,,,Identity,,Profile link + pinned post
+YouTube channel,1,https://www.youtube.com,Identity profile,100,No,No,,Draft,,,Identity,,Channel description links
+Pinterest Business,1,https://business.pinterest.com,Identity profile,94,No,No,,Draft,,,Identity,,Boards per topic; strong for content sites
+Instagram Business,1,https://business.instagram.com,Identity profile,94,No,No,,Draft,,,Identity,,Link in bio
+Gravatar,1,https://gravatar.com,Identity profile,90,Yes,No,,Draft,,,Identity,,2-minute profile with site link
+About.me,1,https://about.me,Identity profile,85,Yes,No,,Draft,,,Identity,,One-page profile
+Dun & Bradstreet,1,https://www.dnb.com,Identity profile,93,No,Yes,,Draft,,,Identity,,Requires DUNS; real-business signal
+Hotfrog,2,https://www.hotfrog.com,Web directory,72,Yes,Yes,,Draft,,,Directory,,
+Brownbook,2,https://www.brownbook.net,Web directory,63,Yes,Yes,,Draft,,,Directory,,
+Cylex,2,https://www.cylex.us.com,Web directory,64,Yes,Yes,,Draft,,,Directory,,
+WebWiki,2,https://www.webwiki.com,Web directory,60,Yes,No,,Draft,,,Directory,,Takes websites; no address needed
+chamberofcommerce.com,2,https://www.chamberofcommerce.com,Web directory,50,Yes,Yes,,Draft,,,Directory,,
+Curlie,2,https://curlie.org,Web directory,75,Yes,No,,Draft,,,Directory,,Volunteer-edited; one honest attempt then move on
+Manta,2,https://www.manta.com,Web directory,76,Yes,Yes,,Draft,,,Directory,,
+MerchantCircle,2,https://www.merchantcircle.com,Web directory,68,Yes,Yes,,Draft,,,Directory,,
+Showmelocal,2,https://www.showmelocal.com,Web directory,64,Yes,Yes,,Draft,,,Directory,,
+iBegin,2,https://www.ibegin.com,Web directory,60,Yes,Yes,,Draft,,,Directory,,
+eLocal,2,https://elocal.com,Web directory,55,Yes,Yes,,Draft,,,Directory,,
+CitySquares,2,https://citysquares.com,Web directory,55,Yes,Yes,,Draft,,,Directory,,
+2FindLocal,2,https://www.2findlocal.com,Web directory,53,Yes,Yes,,Draft,,,Directory,,
+BBB profile,2,https://www.bbb.org/get-listed,Web directory,92,No,Yes,,Draft,,,Directory,,Free profile; accreditation optional
+WordPress.com,3,https://wordpress.com,Content profile,100,Yes,No,,Draft,,,Content,,Free blog; profile + post links
+Blogger,3,https://www.blogger.com,Content profile,100,Yes,No,,Draft,,,Content,,
+Tumblr,3,https://www.tumblr.com,Content profile,99,Yes,No,,Draft,,,Content,,Queue a trickle of posts
+Medium,3,https://medium.com,Content profile,95,No,No,,Draft,,,Content,,Republish with canonical
+Substack,3,https://substack.com,Content profile,93,Yes,No,,Draft,,,Content,,Low-frequency digest works
+SlideShare,3,https://www.slideshare.net,Content profile,95,No,No,,Draft,,,Content,,Guides/checklists as decks
+Scribd,3,https://www.scribd.com,Content profile,93,No,No,,Draft,,,Content,,Upload PDFs
+Issuu,3,https://issuu.com,Content profile,92,No,No,,Draft,,,Content,,PDFs/brochures
+Calameo,3,https://www.calameo.com,Content profile,89,Yes,No,,Draft,,,Content,,
+HubPages,3,https://hubpages.com,Content profile,84,Varies,No,,Draft,,,Content,,Editorial review
+Flipboard,3,https://flipboard.com,Content profile,92,No,No,,Draft,,,Content,,Curate a magazine
+Feedspot,4,https://www.feedspot.com,Blog directory,80,Varies,No,,Draft,,,Blog,,Submit to relevant category list
+Alltop,4,https://alltop.com,Blog directory,73,Yes,No,,Draft,,,Blog,,Topic pages incl. education
+Blogarama,4,https://www.blogarama.com,Blog directory,64,Varies,No,,Draft,,,Blog,,
+OnToplist,4,https://www.ontoplist.com,Blog directory,60,Varies,No,,Draft,,,Blog,,
+BlogEngage,4,https://www.blogengage.com,Blog directory,55,Varies,No,,Draft,,,Blog,,
+Scoop.it,5,https://www.scoop.it,Bookmarking,91,No,No,,Draft,,,Bookmark,,Curate topic incl. own articles
+Diigo,5,https://www.diigo.com,Bookmarking,85,No,No,,Draft,,,Bookmark,,
+Pearltrees,5,https://www.pearltrees.com,Bookmarking,84,No,No,,Draft,,,Bookmark,,
+Folkd,5,https://www.folkd.com,Bookmarking,64,Varies,No,,Draft,,,Bookmark,,
+Mix,5,https://mix.com,Bookmarking,70,No,No,,Draft,,,Bookmark,,
+Niche directory 1,6,,Niche,,Varies,Varies,,Draft,,,Niche,,Vet: alive + indexed + DR 30+
+Niche directory 2,6,,Niche,,Varies,Varies,,Draft,,,Niche,,
+Google Business Profile,7,https://business.google.com,Local,100,n/a,Yes,,Draft,,,Local NAP,,ONLY with a real address; the local anchor
+Bing Places,7,https://www.bingplaces.com,Local,95,n/a,Yes,,Draft,,,Local NAP,,Import from GBP
+Apple Business Connect,7,https://business.apple.com,Local,100,n/a,Yes,,Draft,,,Local NAP,,
+Yelp,7,https://biz.yelp.com,Local,92,No,Yes,,Draft,,,Local NAP,,Never solicit reviews
+Nextdoor Business,7,https://business.nextdoor.com,Local,90,No,Yes,,Draft,,,Local NAP,,
+Data Axle Local Listings,7,https://local-listings.data-axle.com,Local aggregator,80,n/a,Yes,,Draft,,,Local NAP,,Formerly Express Update
+Localeze (TransUnion),7,https://www.neustarlocaleze.biz,Local aggregator,78,n/a,Yes,,Draft,,,Local NAP,,
+Foursquare,7,https://business.foursquare.com,Local aggregator,90,No,Yes,,Draft,,,Local NAP,,Feeds Apple Maps/Uber
+YP.com,7,https://www.yellowpages.com,Local citation,88,Yes,Yes,,Draft,,,Local NAP,,
+Superpages,7,https://www.superpages.com,Local citation,78,Yes,Yes,,Draft,,,Local NAP,,
+MapQuest,7,https://www.mapquest.com,Local citation,90,n/a,Yes,,Draft,,,Local NAP,,
+Local Chamber of Commerce,7,,Local citation,,Yes,Yes,,Draft,,,Local NAP,,Join the real local chamber
